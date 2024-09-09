@@ -182,7 +182,6 @@ You may install Python natively, but this is not recommended, as environment man
 
    This should display the installed version of Python.
 
----
 
 ####2. Install Python on macOS
 
