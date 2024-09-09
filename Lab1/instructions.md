@@ -55,6 +55,7 @@ or enlist all teletype terminals via the command:
 
 ```bash
 cd ~
+```
 
 ```bash
 ls /dev/tty*
