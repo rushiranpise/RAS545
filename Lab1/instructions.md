@@ -29,9 +29,11 @@ MyStudio is available on Windows and Mac x86_64 builds, and can be downloaded fr
 MyStudio installer can be downloaded from [github](https://github.com/elephantrobotics/myStudio) or from its [webpage](https://www.elephantrobotics.com/myCobot/#myStudio).
 Use a usb type C cable to connect the M5 stack with the cobot (as shown in the picture below).
 
-![image](https://github.com/user-attachments/assets/9873fee0-212a-44e2-98bb-3eec2a1e439c)
+![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/usb.jpeg | width = 200)
 
 Run installer as administrator and allow prompts from firewall for installing. After installation open the Basic section (shown below). 
+
+![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/basic.jpeg | width = 200)
 
 The software should automatically detect the cobot version and the USB port. If not select it manually and click login. 
 The USB port number can be found in device manager in Windows or System Report in Mac.  
