@@ -199,7 +199,10 @@ You may install Python natively, but this is not recommended, as environment man
     For **zsh** (default on macOS Catalina and later):
 
     ```bash
-    echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc
+    echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc 
+    ```
+
+    ```bash
     source ~/.zshrc
     ```
 
