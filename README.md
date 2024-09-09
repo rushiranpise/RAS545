@@ -7,7 +7,7 @@ Analysis and design of robotic systems focusing on kinematics, dynamics, coordin
 
 ## Laboratory Objectives
 1. Understand and apply kinematics and dynamics principles to perform robot manipulation tasks.
-2. Get hands-on experience with educational grade robots, and industrial robots. 
+2. Get hands-on experience with education-grade robots, and industrial robots. 
 3. Understand robot programming on various platforms, perform and verify robot simulations and deploy automation tasks on real-robots. 
 3. Learn the use of software such as MATLAB, SolidWorks, ROS, Python etc. in robot workflows.
 
@@ -20,6 +20,12 @@ Analysis and design of robotic systems focusing on kinematics, dynamics, coordin
 
 ## Technical Guidelines
 1. Labs will usually involve a robot manipulation task.
-2. All technical instructions necessary for the conducting the lab activity will be provided in this repository with an announcement for every important changes. 
-3. Students facing technical problems can raise issues to this repo. We'll be addressing technical issues on github. 
-4. Software necessary for conducting lab activities will be mentioned in their respective folders. 
+2. Software necessary for conducting lab activities will be mentioned in their respective folders.
+3. All technical instructions necessary for the conducting the lab activity will be provided in this repository with an announcement for every important changes. 
+4. Students facing technical problems can raise issues to this repo. We'll be addressing technical issues on github. 
+5. Raising an Issue: Go to [RAS545 Issues](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/issues) and create a new issue. 
+   Provide an appropriate issue title and adequate information in description of the issue. Submit after filling up all details. 
+6. Issues will be addressed as they come. Once and issue is resolved it will be closed within 24 hours. 
+7. Irrelevant issues will be closed as not planned.
+
+  
