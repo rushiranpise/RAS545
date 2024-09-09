@@ -9,11 +9,17 @@ Analysis and design of robotic systems focusing on kinematics, dynamics, coordin
 1. Understand and apply kinematics and dynamics principles to perform robot manipulation tasks.
 2. Get hands-on experience with educational grade robots, and industrial robots. 
 3. Understand robot programming on various platforms, perform and verify robot simulations and deploy automation tasks on real-robots. 
-3. Understand the use of common software used in robotic workflows such as MATLAB, SolidWorks, ROS, Python etc.
+3. Learn the use of software such as MATLAB, SolidWorks, ROS, Python etc. in robot workflows.
 
 ## Laboratory Software
-1. MATLAB: See how to obtain license for MATLAB for ASU students. Instructions to install MATLAB can be found [here]().
-2. SolidWorks: See how to obtain license for SolidWorks for ASU students. Instructions to install SolidWorks can be found [here](). 
+1. MATLAB: See how to obtain license for MATLAB for ASU students. Instructions to install MATLAB can be found [here](https://ets.engineering.asu.edu/research/software-collaboration-tools/). Scroll down the page to find MATLAB installation instructions.
+2. SolidWorks: See how to obtain license for SolidWorks for ASU students. SolidWorks can be installated for ASU students from myapps.asu.edu.
 3. Python: Python is a free and open-sourced programming language. See how to install Python on your system [here](). 
-4. ROS: ROS is a free and open-sourced robotics middleware. See how to install ROS [here](). 
-5. Text editor: Choose a Text-editor of your choice. Recommended text editor for this course is VS Code. See how to install VS Code [here]().
+4. ROS: ROS is a free and open-sourced robotics middleware. See how to install ROS 2 [here](https://docs.ros.org/en/jazzy/Installation.html). You may also install ROS 1 depending on your OS platform.
+5. Text editor: Choose a Text-editor of your choice. Recommended text editor for this course is VS Code. See how to install VS Code [here](https://code.visualstudio.com/download).
+
+## Technical Guidelines
+1. Labs will usually involve a robot manipulation task.
+2. All technical instructions necessary for the conducting the lab activity will be provided in this repository with an announcement for every important changes. 
+3. Students facing technical problems can raise issues to this repo. We'll be addressing technical issues on github. 
+4. Software necessary for conducting lab activities will be mentioned in their respective folders. 
