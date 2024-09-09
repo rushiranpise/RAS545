@@ -202,4 +202,5 @@ Anaconda Installation Instructions
 
 Perform the following tasks to complete your lab demonstration:
 ###1. Calibrate your robot
-###2. Move the robot
+###2. Move the cobot
+

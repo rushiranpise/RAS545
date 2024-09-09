@@ -6,7 +6,7 @@ This repository contains instructions for performing laboratory activities for t
 Analysis and design of robotic systems focusing on kinematics, dynamics, coordinate transformations and modeling.
 
 ## Laboratory Objectives
-1. Understand and apply kinematics and dynamics principles to perform robot manipulation tasks.
+1. Understand and apply kinematics and dynamics principles to perform robot manipulatio tasks.
 2. Get hands-on experience with education-grade robots, and industrial robots. 
 3. Understand robot programming on various platforms, perform and verify robot simulations and deploy automation tasks on real-robots. 
 3. Learn the use of software such as MATLAB, SolidWorks, ROS, Python etc. in robot workflows.
