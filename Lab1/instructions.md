@@ -50,6 +50,7 @@ If you'll be using a linux machine after flashing, run the following command to 
 
 ```bash
 sudo dmesg | grep tty
+```
 
 or enlist all teletype terminals via the command:
 
@@ -59,6 +60,7 @@ cd ~
 
 ```bash
 ls /dev/tty*
+```
 
 The name of the terminal can be identified from this list.
 
@@ -105,6 +107,7 @@ Anaconda Installation Instructions
    If you are on a linux machine, open a terminal and navigate to the directory where the `.sh` file is located. Then, run the following command:
    ```bash
    bash Anaconda3-*.sh
+   ```
 
 ** Note: ** Skip for Steps 3 if you are using Windows.
 
@@ -114,11 +117,15 @@ Anaconda Installation Instructions
    ```bash
    echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.zshrc
    source ~/.zshrc
+   ```
 
    If you are on ubuntu using bash: 
+
+   ```bash
    echo 'export PATH="~/anaconda3/bin:$PATH"' >> ~/.bash_profile
    source ~/.bash_profile
-   
+   ```
+
 4. **Complete the Installation**:
    - After installation, you can open the **Anaconda Navigator** from the Start Menu in Windows.
    - On linux, open a new terminal after installation to start anaconda.
@@ -129,20 +136,24 @@ Anaconda Installation Instructions
 
    ```bash
    conda --version
+   ```
 
 6. Install Python in new environment
    Open a command prompt and activate conda
 
    ```bash
    conda activate base
+   ```
 
    ```bash
    conda create --name myenv python=3.10
+   ```
 
    Enter the desired name of your environment instead of myenv. 
 
    ```bash
    conda activate myenv
+   ```
 
 ####3a. Native installation (Not Recommended)
 
@@ -191,6 +202,7 @@ You may install Python natively, but this is not recommended, as environment man
     ```bash
     echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc
     source ~/.zshrc
+    ```
 
 ####3. Install Python on linux
 
@@ -221,11 +233,13 @@ You may install Python natively, but this is not recommended, as environment man
     ```bash
     echo 'alias python=python3' >> ~/.bashrc
     source ~/.bashrc
+    ```
 
 **4. Install pymycobot**\
 
 ```bash
 pip install pymycobot
+```
 
 
 ## Test your system
@@ -234,6 +248,8 @@ First check if you have the right packages by listing them:
 
 ```bash
 pip list
+```
+
 
 Perform the following tasks to complete your lab demonstration:
 ###1. Calibrate your robot
