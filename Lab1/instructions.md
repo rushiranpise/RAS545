@@ -22,14 +22,14 @@ This lab activity introduces programming the cobot with Python and enables the u
 
 ## Setup your cobot system
 
-###1. MyStudio
+**1. MyStudio**\
 The mycobot 280 M5 is based on the [M5 development stack](https://github.com/m5stack). MyStudio is a comprehensive for all cobot firmware burning, documentation, tutorials.
-MyStudio is available on Windows and Mac x86_64 builds, and can be downloaded from its github release. MyStudio app image is unavailable for linux x86_64 builds. Hence for 
-first time setup, use a Windows/Mac x86_64 build to flash the firmware into the robot. Firmware flashing is a one-time process, and is independent of the OS being used to flash it. 
-Once flashed, a user can use Windows/Mac/Linux to program the robot. 
+MyStudio is available on Windows and Mac x86_64 builds, and can be downloaded from its github release. MyStudio app image is unavailable for linux x86_64 builds. Hence for first time setup, use a Windows/Mac x86_64 build to flash the firmware into the robot. Firmware flashing is a one-time process, and is independent of the OS being used to flash it. Once flashed, a user can use Windows/Mac/Linux to program the robot. 
  
 MyStudio installer can be downloaded from [github](https://github.com/elephantrobotics/myStudio) or from its [webpage](https://www.elephantrobotics.com/myCobot/#myStudio).
 Use a usb type C cable to connect the M5 stack with the cobot (as shown in the picture below).
+
+![image](https://github.com/user-attachments/assets/9873fee0-212a-44e2-98bb-3eec2a1e439c)
 
 Run installer as administrator and allow prompts from firewall for installing. After installation open the Basic section (shown below). 
 
