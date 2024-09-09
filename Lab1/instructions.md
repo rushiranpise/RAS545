@@ -72,7 +72,7 @@ Connect the usb cable to the USB port in the robot's end effector
 Go to AtomMain in Basic section in MyStudio. Download the latest firmware and burn Atom.
 
 **2b. Flashing Basic**\
-Click on this link, to download Basic Flasher for Windows. 
+Click on this [link](https://github.com/elephantrobotics/myCobot/releases/download/0/myCobot._windows_x64.zip), to download Basic Flasher for Windows. 
 Connect the USB cable to the cobot's M5 Stack as shown in the first image:
 
 Extract the Basic Flasher zip file. In the firmware selection, select "Transponder". The Terminal should be Basic and Port should be COMPORT to which the robot is connected to.
