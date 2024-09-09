@@ -85,11 +85,11 @@ Click burn to flash the Basic Firmware into M5 Stack.
 
 After completing the above steps, your cobot is ready to be programmed via Python. 
 
-###3. Install Python 
+### 3. Install Python 
 
 MyCobot can be interfaced with Python via the pymycobot API. If you do not have Python installed in your system follow the steps below:
 
-####3a. Install via environment manager (Recommended)
+#### 3a. Install via environment manager (Recommended)
 
 Anaconda Installation Instructions
 
@@ -109,7 +109,7 @@ Anaconda Installation Instructions
    bash Anaconda3-*.sh
    ```
 
-** Note: ** Skip for Steps 3 if you are using Windows.
+**Note:** Skip for Steps 3 if you are using Windows.
 
 3. **Configure the Shell**:
    If you are on Mac, If you’re using **zsh** (the default on macOS Catalina and later) or **bash**, add Anaconda to your shell profile by running:
@@ -155,11 +155,11 @@ Anaconda Installation Instructions
    conda activate myenv
    ```
 
-####3a. Native installation (Not Recommended)
+#### 3a. Native installation (Not Recommended)
 
 You may install Python natively, but this is not recommended, as environment managers allow for isolation of dependencies to avoid conflicts with other tools .
 
-####1. Install Python on Windows
+#### 1. Install Python on Windows
 
 1. **Download the Installer**:
    - Visit the [Python Downloads Page](https://www.python.org/downloads/).
@@ -183,7 +183,7 @@ You may install Python natively, but this is not recommended, as environment man
    This should display the installed version of Python.
 
 
-####2. Install Python on macOS
+#### 2. Install Python on macOS
 
     1. **Download the Installer**:
     - Visit the [Python Downloads Page](https://www.python.org/downloads/).
@@ -203,7 +203,7 @@ You may install Python natively, but this is not recommended, as environment man
     source ~/.zshrc
     ```
 
-####3. Install Python on linux
+#### 3. Install Python on linux
 
     1. Open a terminal and run the following commands based on your distribution:
 
@@ -234,7 +234,7 @@ You may install Python natively, but this is not recommended, as environment man
     source ~/.bashrc
     ```
 
-**4. Install pymycobot**\
+**4. Install pymycobot**
 
 ```bash
 pip install pymycobot
