@@ -185,11 +185,11 @@ You may install Python natively, but this is not recommended, as environment man
 
 #### 2. Install Python on macOS
 
-    1. **Download the Installer**:
+    1. **Download the Installer** :
     - Visit the [Python Downloads Page](https://www.python.org/downloads/).
     - Choose the **macOS** version and download the `.pkg` file for the latest Python release.
 
-    2. **Run the Installer**:
+    2. **Run the Installer** :
     - Double-click the downloaded `.pkg` file to start the installation.
     - Follow the installation prompts.
 
