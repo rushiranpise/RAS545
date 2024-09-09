@@ -39,7 +39,7 @@ The software should automatically detect the cobot version and the USB port. If 
 The USB port number can be found in device manager in Windows or System Report in Mac.  
 
 Here's an image of how the comports should look:
-
+![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/image.png)
 
 Note down the terminal to which the cobot is connected. Select language as English, Location as "other regions" and click login.
 
@@ -47,11 +47,13 @@ Note down the terminal to which the cobot is connected. Select language as Engli
 ####Side Note:
 If you'll be using a linux machine after flashing, run the following command to enlist all terminals.
 
-'''sudo dmesg | grep tty'''
+'''bash
+sudo dmesg | grep tty
 
 or enlist all teletype terminals via the command:
 
-'''cd ~'''
+'''bash
+cd ~
 ''' ls /dev/tty* '''
 
 The name of the terminal can be identified from this list.
