@@ -47,31 +47,33 @@ Note down the terminal to which the cobot is connected. Select language as Engli
 ####Side Note:
 If you'll be using a linux machine after flashing, run the following command to enlist all terminals.
 
-'''bash
+```bash
 sudo dmesg | grep tty
 
 or enlist all teletype terminals via the command:
 
-'''bash
+```bash
 cd ~
-''' ls /dev/tty* '''
+```bash
+ls /dev/tty*
 
 The name of the terminal can be identified from this list.
 
 ###2. Flashing the firmware
 
-####2a. Flashing Atom
-
-Connect the usb cable to the robot's end effector as shown in the image:
+**2a. Flashing Atom**\
+Connect the usb cable to the USB port in the robot's end effector 
 
 Go to AtomMain in Basic section in MyStudio. Download the latest firmware and burn Atom.
 
-####2b. Flashing Basic
+**2b. Flashing Basic**\
 Click on this link, to download Basic Flasher for Windows. 
-Connect the USB cable to the cobot's M5 Stack as shown in the image below:
+Connect the USB cable to the cobot's M5 Stack as shown in the first image:
 
 Extract the Basic Flasher zip file. In the firmware selection, select "Transponder". The Terminal should be Basic and Port should be COMPORT to which the robot is connected to.
 See image below:
+
+![image](https://github.com/Robotics-and-Dynamical-Systems-Lab/RAS545/blob/fall2024/data/flasher.jpeg)
 
 
 Click burn to flash the Basic Firmware into M5 Stack.
@@ -125,7 +127,24 @@ Anaconda Installation Instructions
    ```bash
    conda --version
 
+6. Install Python in new environment
+   Open a command prompt and activate conda
+
+   ```bash
+   conda activate base
+
+   ```bash
+   conda create --name myenv python=3.10
+
+   Enter the desired name of your environment instead of myenv. 
+
+   ```bash
+   conda activate myenv
+
 ####3a. Native installation (Not Recommended)
+
+You may install Python natively, but this is not recommended, as environment managers allow for isolation of dependencies to avoid conflicts with other tools .
+
 ####1. Install Python on Windows
 
 1. **Download the Installer**:
@@ -170,7 +189,7 @@ Anaconda Installation Instructions
     echo 'export PATH="/usr/local/bin/python3:$PATH"' >> ~/.zshrc
     source ~/.zshrc
 
-####3. Install on linux
+####3. Install Python on linux
 
     1. Open a terminal and run the following commands based on your distribution:
 
@@ -200,9 +219,18 @@ Anaconda Installation Instructions
     echo 'alias python=python3' >> ~/.bashrc
     source ~/.bashrc
 
-###4. Install pymycobot
+**4. Install pymycobot**\
+
+```bash
+pip install pymycobot
+
 
 ## Test your system
+
+First check if you have the right packages by listing them: 
+
+```bash
+pip list
 
 Perform the following tasks to complete your lab demonstration:
 ###1. Calibrate your robot
